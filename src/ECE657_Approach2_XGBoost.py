@@ -144,7 +144,7 @@ def visualize_RGB_img():
   plt.grid(False)
   plt.colorbar()
   plt.show()
-  # /home/young/Pictures/2019_04_15_13:15:18.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:15:18.png
 # visualize_RGB_img()
 
 # ================================================================================
@@ -160,7 +160,7 @@ def visualize_B_layer_of_img():
   plt.imshow(Blue)
   plt.grid(False)
   plt.show()
-  # /home/young/Pictures/2019_04_15_13:21:41.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:21:41.png
 # visualize_B_layer_of_img()
 
 # ================================================================================
@@ -174,7 +174,7 @@ def visualize_G_layer_of_img():
   plt.imshow(Green)
   plt.grid(False)
   plt.show()
-  # /home/young/Pictures/2019_04_15_13:21:58.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:21:58.png
 # visualize_G_layer_of_img()
 
 # ================================================================================
@@ -188,7 +188,7 @@ def visualize_R_layer_of_img():
   plt.imshow(Red)
   plt.grid(False)
   plt.show()
-  # /home/young/Pictures/2019_04_15_13:22:11.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:22:11.png
 # visualize_R_layer_of_img()
 
 # ================================================================================
@@ -242,7 +242,7 @@ def RGB_features(img):
     plt.axvline(r_leftmode,color='orange',linewidth=2)
     plt.axvline(r_rightmode,color='orange',linewidth=2)
     plt.show()
-    # /home/young/Pictures/2019_04_15_13:36:33.png
+    # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:36:33.png
   # visual_r_dist()
   
   # ================================================================================
@@ -273,7 +273,7 @@ def RGB_features(img):
     plt.axvline(g_leftmode,color='orange',linewidth=2)
     plt.axvline(g_rightmode,color='orange',linewidth=2)
     plt.show()
-    # /home/young/Pictures/2019_04_15_13:37:55.png
+    # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:37:55.png
   # visual_g_dist()
   
   # ================================================================================
@@ -304,7 +304,7 @@ def RGB_features(img):
     plt.axvline(g_leftmode,color='orange',linewidth=2)
     plt.axvline(g_rightmode,color='orange',linewidth=2)
     plt.show()
-    # /home/young/Pictures/2019_04_15_13:41:14.png
+    # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:41:14.png
   
   # visual_b_dist()
 
@@ -422,7 +422,7 @@ gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 def visualize_gray():
   plt.imshow(gray,cmap='gray')
   plt.show()
-  # /home/young/Pictures/2019_04_15_13:54:28.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:54:28.png
 # visualize_gray()
 
 # ================================================================================
@@ -431,7 +431,7 @@ img=cv2.GaussianBlur(gray,(3,3),0)
 def visualize_gray_blurred():
   plt.imshow(gray,cmap='gray')
   plt.show()
-  # /home/young/Pictures/2019_04_15_13:55:11.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:55:11.png
 # visualize_gray_blurred()
 
 # ================================================================================
@@ -449,7 +449,7 @@ def visualize_sobel_gradient():
   plt.subplot(1,3,3),plt.imshow(sobely,cmap='gray')
   plt.title('Sobel Y axis gradient'),plt.xticks([]),plt.yticks([])
   plt.show()
-  # /home/young/Pictures/2019_04_15_13:58:01.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_13:58:01.png
 # visualize_sobel_gradient()
 
 # ================================================================================

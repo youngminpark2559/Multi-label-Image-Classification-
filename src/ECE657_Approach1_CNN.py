@@ -88,7 +88,7 @@ def visualize1():
   plt.xticks(rotation=90)
   plt.tick_params(labelsize=12)
   plt.show()
-  # /home/young/Pictures/2019_04_15_08:29:23.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_08:29:23.png
 
 visualize1()
 
@@ -125,7 +125,7 @@ def visualize2():
     ax[i//4,i%4].set_title('{}-{}'.format(one_img_name,one_img_tags))
     i+=1
   plt.show()
-  # /home/young/Pictures/2019_04_15_08:40:00.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_08:40:00.png
 
 visualize2()
 
@@ -328,7 +328,7 @@ def visualize3():
   plt.tick_params(labelsize=12)
 
   plt.show()
-  # /home/young/Pictures/2019_04_15_09:59:02.png
+  # https://raw.githubusercontent.com/youngminpark2559/Multi-label-Image-Classification-/master/pics/2019_04_15_09:59:02.png
 
 visualize3()
 
