@@ -1,5 +1,7 @@
 
 #### Intro
+- This is being under construction  
+
 - This is my study using tutorial which is originated from  
 https://github.com/Keess324/Multi-label-Image-Classification-  
 
