@@ -444,8 +444,11 @@ model_2.fit(
 # @ Use validation data
 
 test_validationy=model_2.predict(validationx)
-print("test_validationy",test_validationy)
-afaf
+# print("test_validationy",test_validationy)
+# [[4.1022849e-01 1.6631652e-01 2.1586376e-03 ... 6.4991966e-02
+#   5.9920963e-04 8.9649647e-01]
+#  [3.1384403e-01 2.0036967e-01 5.0277100e-03 ... 1.5764853e-02
+#   1.8442185e-03 7.5833780e-01]
 
 # ================================================================================
 # @ CNN Model2 --- 10 epochs
