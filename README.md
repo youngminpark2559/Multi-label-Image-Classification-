@@ -13,6 +13,9 @@ https://github.com/Keess324/Multi-label-Image-Classification-
 - Project and its dataset are from  
 https://www.kaggle.com/c/planet-understanding-the-amazon-from-space
 
+You need to download full 30 GB dataset from that page
+and also need to uncompress files and put them into `Data` directory
+
 #### Libraries
 - TensorFlow: v1.10.0  
 - Keras: v2.2.4  
