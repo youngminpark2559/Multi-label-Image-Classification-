@@ -3,8 +3,6 @@
 
 # # Overall EDA Analysis
 
-# In[79]:
-
 # Import Packages
 import time
 import numpy as np 
@@ -21,7 +19,7 @@ import plotly.tools as tls
 from tqdm import tqdm
 
 
-# In[39]:
+
 
 # Test Timer
 t = time.time()
@@ -32,14 +30,14 @@ elapsed
 
 # ## Loading Label Data
 
-# In[40]:
+
 
 # Loading Label Data
 train_label = pd.read_csv('train_v2.csv')
 train_label.head()
 
 
-# In[41]:
+
 
 import random
 alist = random.sample(range(1, 40479), 25)
@@ -50,7 +48,7 @@ train_label.values[34459]
 
 # ## Encoding labels via Dictionary 
 
-# In[42]:
+
 
 # Count Different Classes "Train y"
 
@@ -65,7 +63,7 @@ print("Numbers of different labels: {} ".format(len(class_label)))
 
 # ## Label Histogram and Distribution Overview
 
-# In[43]:
+
 
 # label distribution counts /EDA
 
@@ -83,7 +81,7 @@ plt.tick_params(labelsize=12)
 
 # ## Image Data Overview
 
-# In[49]:
+
 
 # Overview the Image and its corresponding labels.
 import cv2
@@ -107,7 +105,7 @@ for m in alist:
 plt.show()
 
 
-# In[50]:
+
 
 # Ordering the label class
 # Design a dictionary
@@ -127,7 +125,7 @@ print(order_maplabel)
 
 # ## Label Covariance Observation
 
-# In[78]:
+
 
 # Covariance
 labels = train_label['tags'].apply(lambda x: x.split(' '))
@@ -151,7 +149,7 @@ py.iplot(data, filename='train-com')
 
 # ## Image Dataset Standardization 
 
-# In[52]:
+
 
 # reshape every image to 64 * 64
 # Image Preprocess: Reshape
@@ -176,7 +174,7 @@ print(type(ximage))
 
 # ## Label BR
 
-# In[ ]:
+
 
 # Convert labelled y from string to 0/1 encoding by using above dictionary 
 tem = [el[1] for el in train_label.values]
@@ -197,7 +195,7 @@ print(len(ylabel))
 
 # ## Split Training and Testing
 
-# In[54]:
+
 
 # Validation and Training Breaking Down 60:40 ===> 24287 : 16192
 
@@ -217,7 +215,7 @@ print(len(ylabel))
 
 # ## Overall / Training/ Testing Label Numbers in Each Image Overview
 
-# In[56]:
+
 
 # ylabel overview
 
@@ -248,7 +246,7 @@ plt.xticks(rotation=90)
 plt.tick_params(labelsize=12)
 
 
-# In[16]:
+
 
 # trainy multi-label counts
 trainy
@@ -279,7 +277,7 @@ plt.xticks(rotation=90)
 plt.tick_params(labelsize=12)
 
 
-# In[17]:
+
 
 validationy
 multilabel_test_overview = [sum(i) for i in validationy]
@@ -313,7 +311,7 @@ plt.tick_params(labelsize=12)
 
 # ## Image Size
 
-# In[18]:
+
 
 # Input Image Size
 trainx.shape

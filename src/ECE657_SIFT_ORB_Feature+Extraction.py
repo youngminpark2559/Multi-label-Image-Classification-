@@ -3,7 +3,7 @@
 
 # # SIFT Key Point Detection Attempt
 
-# In[238]:
+
 
 # Loading Package
 import numpy as np 
@@ -21,14 +21,14 @@ import plotly.tools as tls
 from tqdm import tqdm
 
 
-# In[239]:
+
 
 # Loading Label Data
 train_label = pd.read_csv('train_v2.csv')
 train_label.head()
 
 
-# In[242]:
+
 
 # Opencv Picture Feature
 
@@ -44,7 +44,7 @@ def img_show(img):
 img_show(Img);
 
 
-# In[243]:
+
 
 def gray_img(color_img):
     plt.grid(False)
@@ -57,7 +57,7 @@ Img_gray = gray_img(Img)
 plt.imshow(Img_gray, cmap='gray');
 
 
-# In[245]:
+
 
 # SIFT Feature Engineering
 
@@ -75,7 +75,7 @@ plt.imshow(img2),plt.show()
 
 # # ORB Key Point Detection
 
-# In[ ]:
+
 
 gray = cv2.cvtColor(Img, cv2.COLOR_BGR2GRAY)
 orb = cv2.ORB_create(nfeatures=1000)

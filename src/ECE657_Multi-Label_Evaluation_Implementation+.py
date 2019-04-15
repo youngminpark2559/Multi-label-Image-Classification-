@@ -1,11 +1,7 @@
 
 # coding: utf-8
 
-# # Evaluation Implementation 
-
-# ## 1. Exact Match Ratio (MR)
-
-# In[1]:
+# Evaluation Implementation 
 
 # 1. Exact Match Ratio (MR)
 
@@ -26,10 +22,6 @@ def MR_Measure (target,predict):
 
     print("Exact Match Ratio is: {} ".format(Exact_Match_Ratio))
 
-
-# ## 2. Hamming Loss (HL)
-
-# In[2]:
 
 # 2. Hamming Loss (HL)
 
@@ -75,10 +67,6 @@ def HL_measure(target,predict):
 
     print("Hamming Loss is: {} ".format(Hamming_Loss))
 
-
-# ## 3. Godbole et Measure (Considering the partical correct)
-
-# In[3]:
 
 # 3. Godbole et Measure (Considering the partical correct)
 
@@ -155,6 +143,3 @@ def GodBole(target,predict):
         msurelist.append(F)
     GB_F_measure = sum(msurelist)/len(target)
     print("GodBole F1_Measure is: {} ".format(GB_F_measure)) 
-    
-    
-
